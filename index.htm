@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lamsat Car Service Center</title>
+
+    <!-- Link Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Link File CSS -->
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/2f7141bc36.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="img/unnamed-removebg-preview.png" class="logo" alt="">
+            <div class="menu">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Location</a>
+                <a href="#">Services</a>
+                <a href="#">Offers</a>
+                <a href="#">Contact</a>
+            </div>
+
+            <div class="social">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </nav>
+    </header>
+    
+    <div class="hero">
+
+        <div class="text">
+            <h4>Auto Maintenance &</h4>
+            <h1>REPAIR <br> <span>SHOP</span></h1>
+            <p>Excellence in Auto Care and Trustworthiness</p>
+            <a href="#" class="btn">Book A Service</a>
+        </div>
+    </div>
+
+    <script>
+        let heroBg = document.querySelector('.hero');
+
+        setInterval(() => {
+            heroBg.style.backgroundImage = "url(img/bg-light.jpg)"
+            
+            setTimeout(() => {
+                heroBg.style.backgroundImage = "url(img/bg.jpg)"
+            }, 1000);
+        }, 2200);
+    </script>
+    
+
+    <div class="info-bar">
+        <div class="icon">
+            <img src="icon/services-1.png" alt="">
+            <h3>Expert Workers</h3>
+            <p>Our Mechanic's are experienced and they are well trained to handel any situation without making a mess</p>
+        </div>
+        <div class="icon">
+            <img src="icon/services-2.png">
+            <h3>Modern Equipment</h3>
+            <p>Lamsat uses mordern up-to-date Equipment to enhance your cars performence</p>
+        </div>
+        <div class="icon">
+            <img src="icon/services-3.png">
+            <h3>Quality Servicing</h3>
+            <p>From a simple Tire brust to a massive Engine falure, we maintain Quality Servicing, No Exceptions</p>
+        </div>
+    </div>
+
+
+    <div class="Experience-section">
+        <div class="experience__image">
+            <img class="exp-img" src="img/experience.jpg" alt="experience" />
+          </div>
+          <div class="experience__content">
+            <h4 class="section__subheader">WHO WE ARE</h4>
+            <h2 class="section__header">
+              We Have 30+ Years Of Experience In This Field
+            </h2>
+            <p class="section__description">
+              With a rich legacy spanning 30+ years, our commitment to excellence in
+              car servicing is unwavering. Our seasoned team brings a wealth of
+              experience to ensure your vehicle receives top-notch care. Trust in
+              our expertise to keep your car running smoothly and safely.
+            </p>
+            <button class="btn">Read More</button>
+          </div>
+    </div>
+
+
+    
+    <div class="Service-container">
+        <h1>Our Services</h1>
+        <div class="row">
+            <div class="service">
+                <i class="fa-solid fa-oil-can"></i>
+                <h2>Oil Change</h2>
+                <p>We sell all types of genuine Engine oil and oil filters in most affordable prices</p>
+            </div>
+            <div class="service">
+                <i class="fa-solid fa-truck-pickup"></i>
+                <h2>Puncture Repair</h2>
+                <p>We repair all types of tyre puncture with premium elastic repair kit, ensures no further leak</p>
+            </div>
+            <div class="service">
+                <i class="fa-solid fa-spray-can-sparkles"></i>
+                <h2>Interior cleaning</h2>
+                <p>With every oil change we provide a FREE interior deep clean to make sure your car is neat and clean</p>
+            </div>
+            <div class="service">
+                <i class="fa-solid fa-wrench"></i>
+                <h2>Engine Service</h2>
+                <p>We diagnose your engine for any problem and fix it</p>
+            </div>
+            <div class="service">
+                <i class="fa-solid fa-car-battery"></i>
+                <h2>Battery Charging</h2>
+                <p>Car won't start ? we will charge your battery's and make sure your car runs well</p>
+            </div>
+            <div class="service">
+                <i class="fa-regular fa-lightbulb"></i>
+                <h2>Accessory</h2>
+                <p>From light bulb to wiper blades, we have all the accessory's your car needs</p>
+            </div>
+        </div>
+    </div>
+
+
+
+    <h1 class="location-h1">Location</h1>
+    <div class="location-container">
+        <div class="location-info">
+            <img class="location-img" src="img/unnamed-removebg-preview.png">
+            <ul class="location-descrip">
+                <li>Open 24 Hours</li>
+                <li>An Nasiriyah, Arar 73241, Saudi Arabia</li>
+                <li>CALL- 00966508832060</li>       
+            </ul>
+        
+        </div>
+        <div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d698.7120828845608!2d41.03267072065758!3d30.969254852421106!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x156c0d8d7a8c56b1%3A0xe258a33421013f6f!2sAl%20Abrag%20oil%20change%20and%20puncture%20shop!5e0!3m2!1sen!2sbd!4v1713358125640!5m2!1sen!2sbd" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+        
+        
+        
+
+    </div>
+
+    <footer>
+        <div class="footerContainer">
+            <div class="socialIcons">
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-google-plus"></i></a>
+                <a href=""><i class="fa-brands fa-youtube"></i></a>
+            </div>
+            <div class="footerNav">
+                <ul><li><a href="">Home</a></li>
+                    <li><a href="">News</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact Us</a></li>
+                    <li><a href="">our Team</a></li>
+                </ul>
+            </div>
+            
+        </div>
+        <div class="footerBottom">
+            <p>Copyright &copy;2024; Designed by <span class="designer">Habib Harunur Rashid</span></p>
+        </div>
+    </footer>
+
+       
+      
+
+    
+
+    
+
+</body>
+</html>
